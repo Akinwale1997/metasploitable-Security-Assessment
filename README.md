@@ -29,7 +29,7 @@ Overall Risk Rating: CRITICAL
 
 #### Port 21/tcp - FTP (vsftpd 2.3.4)
 - Risk Rating: CRITICAL
-- Evidence: ../Evidence/tip_service_02.jpg, ![Defender Dashboard Opened](./ftp_backdoor_exploit_03.jpg)
+- Evidence: ../Evidence/tip_service_02.jpg, !(./ftp_backdoor_exploit_03.jpg)
 - Vulnerability: CVE-2011-2523 - Backdoor command execution
 - Verification: Nmap script confirmed root-level command execution
 - Recommendation: Immediate service disablement and OS reinstallation
