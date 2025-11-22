@@ -48,7 +48,7 @@ Overall Risk Rating: CRITICAL
 
 #### Port 25/tcp - SMTP (Postfix)
 - Risk Rating: MEDIUM
-- Evidence: ../Evidence/snrip_vulnerabilities_06.jpg, ../Evidence/solver_analysis_07.jpg
+- Evidence:  ![SMTP Vulnerabilities](./smtp_vulnerabilities_06.jpg),  ![Cipher Analysis](./cipher_analysis_07.jpg)
 - Vulnerabilities: 
   - SSL POODLE (CVE-2014-3566)
   - Weak Diffie-Hellman parameters (512-bit/1024-bit)
