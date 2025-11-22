@@ -6,7 +6,7 @@ comprehensive penetration test report of metasploitable VM demonstrating vulnera
 
 Target IP: 192.168.18.4
 Scan Date: 2025-11-22
-Tester: aldima1e9/aktimalc
+Tester: Olarinde Abdulafees Akinwale
 Objective: External Vulnerability Assessment
 
 ---
@@ -65,6 +65,19 @@ Overall Risk Rating: CRITICAL
 
 ---
 
+credential transmission
+   - Easy credential interception and brute-force attacks
+
+4. MEDIUM: SMTP Service Weak Encryption
+   - POODLE vulnerability (CVE-2014-3566)
+   - Weak Diffie-Hellman parameters susceptible to MITM attacks
+
+### Immediate Actions Required
+1. Isolate the system from all networks
+2. Perform complete OS reinstallation
+3. Implement security hardening baseline
+4. Establish patch management procedures
+
 ### 5. Remediation Strategy
 1. Containment: Immediate network isolation
 2. Eradication: Complete OS reinstallation from trusted media
@@ -78,10 +91,10 @@ Overall Risk Rating: CRITICAL
 ---
 
 ### 6. Evidence Index
-- Initial Scan: ../Evidence/intial_scan_01.jpg
-- FTP Service: ../Evidence/tip_service_02.jpg
-- FTP Backdoor: ../Evidence/tip_backdoor_explot_03.jpg
-- SSH Vulnerabilities: ../Evidence/sch_vulnerabilities_04.jpg
-- Telnet Service: ../Evidence/telnet_service_05.jpg
-- SMTP Vulnerabilities: ../Evidence/snrip_vulnerabilities_06.jpg
-- Cipher Analysis: ../Evidence/solver_analysis_07.jpg
+- Initial Scan: ![FTP Backdoor Exploit](./initial_scan_01.jpg)
+- FTP Service: ![FTP Backdoor Exploit](./ftp_service_02.jpg)
+- FTP Backdoor: ![FTP Backdoor Exploit](./ftp_backdoor_exploit_03.jpg)
+- SSH Vulnerabilities: ![FTP Backdoor Exploit](./ssh_vulnerabilities_04.jpg)
+- Telnet Service: ![FTP Backdoor Exploit](./telnet_service_05.jpg)
+- SMTP Vulnerabilities: ![FTP Backdoor Exploit](./smtp_vulnerabilities_06.jpg)
+- Cipher Analysis: ![FTP Backdoor Exploit](./cipher_analysis_07.jpg)
