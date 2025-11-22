@@ -42,7 +42,7 @@ Overall Risk Rating: CRITICAL
 
 #### Port 23/tcp - Telnet (Linux telnetd)
 - Risk Rating: HIGH
-- Evidence: ../Evidence/telnet_service_05.jpg
+- Evidence:  ![Telnet Service](./telnet_service_05.jpg)
 - Vulnerability: Plaintext credential transmission
 - Recommendation: Disable service, use SSH exclusively
 
